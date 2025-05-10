@@ -1,82 +1,265 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Lunaria | Where Nature Meets Radiance</title>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lunaria | Where Nature Meets Radiance</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <nav>
-    <div class="logo">
-      <img src="Modern Flat Logo for 'Lunaria Glow' Brand.png" alt="Lunaria Logo" />
+    <!-- Navigation -->
+    <header id="main-header">
+        <div class="logo">Lunaria</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Landing Page/Hero Section -->
+    <section id="home" class="hero">
+        <div class="petal petal-1"></div>
+        <div class="petal petal-2"></div>
+        <div class="petal petal-3"></div>
+        <div class="hero-content">
+            <h1>Lunaria</h1>
+            <p class="tagline">Where Nature Meets Radiance</p>
+            <div class="hero-product">
+                <h2>New: Celestial Glow Serum</h2>
+                <p>Illuminate your natural beauty with our antioxidant-rich formula</p>
+                <a href="#features" class="cta-button">Discover the Glow</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Homepage Sections -->
+    <section id="about" class="brand-story">
+        <div class="section-content">
+            <div class="text-content">
+                <h2>Our Story</h2>
+                <p>Founded in 2020, Lunaria was born from a simple belief: that true beauty comes from harmony with nature. Our founder, a botanist and skincare enthusiast, combined her passions to create products that celebrate your natural radiance while respecting the earth.</p>
+                <p>Each formulation is carefully crafted with organic, ethically sourced ingredients that deliver visible results without compromise.</p>
+            </div>
+            <div class="image-gallery">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf" alt="Natural ingredients">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1556228578-8c89e6adf883" alt="Botanical extracts">
+                </div>
+                <div class="gallery-item">
+                    <img src="face.jpg" alt="Skincare products">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="products" class="product-preview">
+        <h2>Our Collection</h2>
+        <div class="product-carousel">
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1571781926291-c477ebfd024b" alt="Lunaria Serum">
+                </div>
+                <h3>Celestial Glow Serum</h3>
+                <a href="#features" class="secondary-button">Learn More</a>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1625772452859-1c03d5bf1137" alt="Lunaria Cleanser">
+                </div>
+                <h3>Moonlight Cleanser</h3>
+                <a href="#" class="secondary-button">Coming Soon</a>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="new product.jpg" alt="Lunaria Moisturizer">
+                </div>
+                <h3>Starlight Moisturizer</h3>
+                <a href="#" class="secondary-button">Coming Soon</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feature Page -->
+    <section id="features" class="featured-product">
+        <div class="feature-header">
+            <h2>Celestial Glow Serum</h2>
+            <p>Your skin's new best friend</p>
+        </div>
+
+        <div class="ingredient-breakdown">
+            <h3>Powerful Yet Gentle Formula</h3>
+            <div class="ingredient-grid">
+                <div class="ingredient">
+                    <div class="ingredient-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h4>Botanical Hyaluronic Acid</h4>
+                    <p>Deep hydration without heaviness</p>
+                </div>
+                <div class="ingredient">
+                    <div class="ingredient-icon">
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                    <h4>Vitamin C from Kakadu Plum</h4>
+                    <p>Brightens and evens skin tone</p>
+                </div>
+                <div class="ingredient">
+                    <div class="ingredient-icon">
+                        <i class="fas fa-water"></i>
+                    </div>
+                    <h4>Aloe Vera Juice</h4>
+                    <p>Soothes and calms irritation</p>
+                </div>
+                <div class="ingredient">
+                    <div class="ingredient-icon">
+                        <i class="fas fa-cloud-sun"></i>
+                    </div>
+                    <h4>Natural Antioxidants</h4>
+                    <p>Protects against environmental stress</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="benefits-section">
+            <div class="benefits-image">
+                <img src="https://images.unsplash.com/photo-1571781926291-c477ebfd024b" alt="Benefits of Celestial Glow Serum">
+            </div>
+            <div class="benefits-list">
+                <h3>Experience the Difference</h3>
+                <ul>
+                    <li>Instantly boosts radiance</li>
+                    <li>Reduces appearance of fine lines</li>
+                    <li>Improves skin texture over time</li>
+                    <li>Non-greasy, fast-absorbing formula</li>
+                    <li>Vegan and cruelty-free</li>
+                    <li>Packaged in sustainable materials</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="usage-section">
+            <h3>How To Use</h3>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <p>Apply 2-3 drops to clean, damp skin</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <p>Gently press into face and neck</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <p>Follow with moisturizer</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <p>Use morning and night for best results</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="comparison-section">
+            <h3>Why Choose Lunaria?</h3>
+            <div class="comparison-table">
+                <div class="table-header">
+                    <div class="header-item"></div>
+                    <div class="header-item">Lunaria</div>
+                    <div class="header-item">Generic Brands</div>
+                </div>
+                <div class="table-row">
+                    <div class="row-title">Ingredients</div>
+                    <div class="row-item">100% natural origin</div>
+                    <div class="row-item">Often synthetic</div>
+                </div>
+                <div class="table-row">
+                    <div class="row-title">Fragrance</div>
+                    <div class="row-item">Essential oil blends</div>
+                    <div class="row-item">Artificial perfumes</div>
+                </div>
+                <div class="table-row">
+                    <div class="row-title">Packaging</div>
+                    <div class="row-item">Recyclable glass</div>
+                    <div class="row-item">Plastic containers</div>
+                </div>
+                <div class="table-row">
+                    <div class="row-title">Ethics</div>
+                    <div class="row-item">Cruelty-free, vegan</div>
+                    <div class="row-item">Often animal-tested</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="product-cta">
+            <div class="price-tag">
+                <p class="price">$48</p>
+                <p class="value">(120ml / 4oz)</p>
+            </div>
+            <a href="#" class="cta-button">Add to Cart</a>
+            <p class="shipping-note">Free shipping on orders over $50</p>
+        </div>
+    </section>
+
+    <!-- Contact/Newsletter Section -->
+<section id="contact" class="newsletter">
+    <div class="newsletter-content">
+        <div class="newsletter-logo">
+            <img src="Trans Modern Flat Logo for 'Lunaria Glow' Brand.png" alt="Lunaria Logo" class="logo-image">
+        </div>
+        <h2>Join Our Community</h2>
+        <p>Subscribe to receive exclusive offers, skincare tips, and early access to new products.</p>
+        <form class="signup-form">
+            <div class="form-group">
+                <input type="text" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+                <input type="email" placeholder="Email Address" required>
+            </div>
+            <button type="submit" class="cta-button">Sign Up</button>
+        </form>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-pinterest"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+        </div>
     </div>
-    <div class="nav-links">
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#products">Products</a>
-      <a href="#features">Features</a>
-      <a href="#contact">Contact</a>
+</section>
+
+<section class="testimonials">
+    <h2>What Our Community Says</h2>
+    <div class="testimonial-container">
+        <div class="testimonial">
+            <img src="https://randomuser.me/api/portraits/women/32.jpg" alt="Sarah J.">
+            <p>"The Celestial Glow Serum transformed my skincare routine. My complexion has never looked more radiant!"</p>
+            <span>- Sarah J.</span>
+        </div>
+        <div class="testimonial">
+            <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Mia T.">
+            <p>"I love knowing I'm using clean products that actually work. Lunaria is my new holy grail."</p>
+            <span>- Mia T.</span>
+        </div>
+        <div class="testimonial">
+            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Priya K.">
+            <p>"Finally found a brand that doesn't irritate my sensitive skin. The texture is divine!"</p>
+            <span>- Priya K.</span>
+        </div>
     </div>
-  </nav>
-
-  <section class="hero" id="home">
-    <h1>Where Nature Meets Radiance</h1>
-    <p>Introducing our newest skincare glow formula</p>
-    <button class="cta">Discover the Glow</button>
-  </section>
-
-  <section id="about">
-    <h2 class="section-title">Our Story</h2>
-    <p>Lunaria blends the purity of botanicals with refined beauty science. We believe in glowing skin, naturally achieved.</p>
-  </section>
-
-  <section id="products">
-    <h2 class="section-title">Product Preview</h2>
-    <div class="carousel">
-      <img src="warm.jpg" alt="Product 1">
-      <img src="extra.jpg" alt="Product 2">
-      <img src="body.jpg" alt="Product 3">
-    </div>
-  </section>
-
-
-  <section id="features">
-    <h2 class="section-title">New Product Features</h2>
-
-    <div class="feature-grid">
-      <div class="feature ingredient">
-        <h3>Ingredients</h3>
-        <ul>
-          <li>Rosehip Oil</li>
-          <li>Vitamin C</li>
-          <li>Green Tea Extract</li>
-        </ul>
-      </div>
-      <div class="feature">
-        <h3>Benefits</h3>
-        <p>Hydrates, evens tone, and restores natural glow.</p>
-      </div>
-      <div class="feature usage-step">
-        <h3>How to Use</h3>
-        <ol>
-          <li>Cleanse face</li>
-          <li>Apply 2-3 drops to damp skin</li>
-          <li>Massage gently until absorbed</li>
-        </ol>
-      </div>
-      <div class="feature">
-        <h3>Why Lunaria?</h3>
-        <p>Compared to others, Lunaria is 100% botanical, cruelty-free, and dermatologist-approved.</p>
-      </div>
-    </div>
-
-    <button class="cta">Buy Now</button>
-  </section>
-
-  
-
-  <script src="index.js"></script>
-</body>
-</html>
+</section>
+    <!-- Footer -->
