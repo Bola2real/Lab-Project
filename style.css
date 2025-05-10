@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #fff8f5;
+    color: #4a4a4a;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fdf1f7;
+    padding: 2rem;
+  }
+  
+  nav a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #6b4e71;
+    font-weight: 600;
+  }
+  
+  .logo img {
+    height: 40px;
+  }
+  
+  .hero {
+    background: linear-gradient(#f9eff9, #ffffff);
+    text-align: center;
+    padding: 6rem 2rem;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    color: #b083b0;
+  }
+  
+  .cta {
+    margin-top: 1.5rem;
+    background-color: #eec6d4;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta:hover {
+    background-color: #d8a8bc;
+  }
+  
+  .section-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #b083b0;
+  }
+  
+  .feature-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  
+  .feature {
+    flex: 1 1 200px;
+    background-color: #fff0f6;
+    border-radius: 1rem;
+    padding: 1rem;
+  }
+  
+  .testimonial, .ingredient, .usage-step {
+    background: #fff;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .carousel {
+    display: flex;
+    overflow-x: auto;
+    gap: 1rem;
+    padding-bottom: 1rem;
+  }
+  
+  footer {
+    background-color: #fdf1f7;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+  
+  footer input[type="email"] {
+    padding: 0.5rem;
+    border-radius: 1rem;
+    border: 1px solid #ccc;
+    margin-right: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  @media (max-width: 768px) {
+    .feature-grid {
+      flex-direction: column;
+    }
+  
+    nav {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .nav-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+  }
+  
